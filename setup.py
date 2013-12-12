@@ -20,6 +20,7 @@ setup(name='recurrent',
       package_dir={'': 'src'},
       zip_safe=False,
       install_requires=[
+          'python-dateutil',
           'parsedatetime',
       ]
       )
